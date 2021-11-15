@@ -1,0 +1,76 @@
+/*--------Global------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #39393a;
+    text-align: left;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 5rem;
+}
+
+/*--------Main, header and footer------------------*/
+main, header {
+    background-color: #ffffff;
+    width: 50rem;
+    border-radius: 0 0 10px 10px;
+    padding: 0 2rem 1rem 2rem;
+}
+
+header {
+    border-radius: 10px 10px 0 0;
+    padding-top: 3rem;
+}
+
+footer, #footer, #link{
+    color: #8f8f8f;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+/*--------titles, subtitles and lists------------------*/
+#title, .sub-titles {
+    color: #1b1b1b;
+    font-weight: 700;
+    text-align: center;
+}
+
+#title {
+    font-size: 1.75rem;
+}
+
+.sub-titles {
+  font-size: 1.25rem;  
+  padding: 2rem 0 0.5rem 0;
+}
+
+.p, .list {
+    font-size: 1rem;
+    padding: 0.5rem
+}
+
+.list {
+    line-height: 26px;
+    list-style-position: inside;
+}
+
+/*--------Figure------------------*/
+img {
+    border-radius: 0.625rem;
+    object-fit: cover;
+    width: 100%;
+    height: 10rem;
+}
+
+figcaption {
+    text-align: right;
+    font-size: 0.75rem;
+}
